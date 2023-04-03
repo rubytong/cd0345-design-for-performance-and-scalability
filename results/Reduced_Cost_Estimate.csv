@@ -20,3 +20,9 @@ My Estimate,US East (N. Virginia),ALBs,Application Load Balancer,0,500.05,6000.6
 
 Acknowledgement
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Notes
+Explain which services were changed or removed to decrease the monthly cost
+I've reduced 50% resource allocation for below kind of servers by using smaller instance types:
+- Web Server: m5a.2xlarge -> m5a.xlarge
+- App Server: m5.8xlarge -> m5a.4xlarge
